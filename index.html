@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>  
+<head>
+	<meta charset="UTF-8" Unicode="U+00A9, UTF-8: C2 A9">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Pythagorean Theorem</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|ZCOOL+XiaoWei|Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <link HREF="./styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>
+        The Pythagorean Theorem
+    </h1>
+    <p>
+        a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>
+    </p>
+    <hr>
+    <p>
+        The Pythagorean Theorem is used to calculate a missing side length of a Right Triangle. 
+        <br>
+        It is introduced in the right triangle, but the Pythagorean Theorem's uses are endless. 
+        <br>
+        That's why it is so important to mathematicians!
+    </p>
+    <hr>
+    <p>
+        <img src="images/triangle.png" alt="triangle" id="triangle" />
+        The Pythagorean Theorem was discovered by the mathematician Pythagoras.
+        <br>He lived from 580 - 500 B.C.
+    </p>
+    <p>
+        <img src="images/pythagoras.png" alt="pyth. picture" id="pythagoras" />
+    </p>
+    <hr>
+    <p> 
+        When using the Pythagorean Theorem, the main thing to remember is the value of the side length that you substitute into the theorem for variable c MUST be the hypotenuse length only. The other 2 side lengths are substituted into the equation for variables a and b. It does not matter which side length you substitute for variable a and b. You will get the same answer either way. But variable c, the hypotenuses's length, MUST be substituted for c and only c. Otherwise you will get a wrong answer.
+    </p>
+    <hr>
+    <p>
+        Enter the two side lengths into the boxes below. Then click Submit. The third answer will be given to you; your missing side length of the triangle.
+    </p>
+    <input type="text" id="myA" /> = a 
+    <input type="text" id="myB" /> = b
+    <input type="text" id="myC" /> = c
+    <br><br>
+    <button type="submit" id="submit" onclick="myCalc()">Submit</button>
+    <p id="demo"></p>
+    <footer>©2019 All Things Math</footer>
+    <script src="script.js"></script>
+</body>
+</html>

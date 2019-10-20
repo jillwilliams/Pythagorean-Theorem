@@ -1,0 +1,93 @@
+/* font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Zhi Mang Xing', cursive;
+font-family: 'ZCOOL XiaoWei', serif; */
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 3px;
+    margin: 20px 30px;
+    font-size: 1.8rem;
+    background-image: linear-gradient(orange, red);
+}
+h1 { 
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+/* IMAGE: RIGHT TRIANGLE */
+#triangle {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px blue solid;
+    outline: 2px  black solid;
+}
+/* IMAGE OF PYTHAGORAS */
+#pythagoras {
+
+}
+/* MY A'S PROPERTIES INCLUDING BOX AND LETTER A */
+#myA {
+    width: 40px;
+    height: 40px;
+    background-color: lightseagreen;
+    margin-left: 30%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px black solid;
+
+}
+/* MY B'S PROPERTIES INCLUDING BOX AND LETTER B */
+
+#myB {
+    width: 40px;
+    height: 40px;
+    background-color: lightseagreen;
+    margin-left: 10%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px black solid;
+
+}
+/* MY C'S PROPERTIES INCLUDING BOX AND LETTER C */
+
+#myC {
+    width: 40px;
+    height: 40px;
+    background-color: lightseagreen;
+    margin-left: 10%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px black solid;
+
+}
+/* SUBMIT BUTTON */
+#submit {
+    width: 10%;
+    height: 60px;
+    background-color: lightseagreen;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 1.2rem;
+    border: 1px black solid;
+
+}
+#demo {
+    width: 9%;
+    height: 40px;
+    background-color: lightseagreen;
+    margin-right: 45%;
+    margin-left: 45%;
+    border: 1px black solid;
+    font-size: 1.2rem;
+    padding: 10px;
+
+}
+footer {
+    text-align: center;
+}

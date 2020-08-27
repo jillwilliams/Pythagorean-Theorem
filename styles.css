@@ -30,10 +30,10 @@ p {
 }
 /* MY A'S PROPERTIES INCLUDING BOX AND LETTER A */
 #myA {
-    width: 40px;
+    width: 10%;
     height: 40px;
     background-color: lightseagreen;
-    margin-left: 30%;
+    margin-left: 10%;
     padding: 10px;
     font-size: 1rem;
     text-align: center;
@@ -43,7 +43,7 @@ p {
 /* MY B'S PROPERTIES INCLUDING BOX AND LETTER B */
 
 #myB {
-    width: 40px;
+    width: 10%;
     height: 40px;
     background-color: lightseagreen;
     margin-left: 10%;
@@ -56,7 +56,7 @@ p {
 /* MY C'S PROPERTIES INCLUDING BOX AND LETTER C */
 
 #myC {
-    width: 40px;
+    width: 10%;
     height: 40px;
     background-color: lightseagreen;
     margin-left: 10%;
@@ -68,25 +68,28 @@ p {
 }
 /* SUBMIT BUTTON */
 #submit {
-    width: 10%;
+    width: 15%;
     height: 60px;
     background-color: lightseagreen;
-    margin-left: 45%;
-    margin-right: 45%;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
     font-size: 1.2rem;
     border: 1px black solid;
 
 }
 #demo {
-    width: 9%;
+    width: 20%;
     height: 40px;
     background-color: lightseagreen;
-    margin-right: 45%;
-    margin-left: 45%;
+    margin-right: 40%;
+    margin-left: 40%;
     border: 1px black solid;
     font-size: 1.2rem;
     padding: 10px;
-
+}
+iframe {
+    margin: 15px 33% 15px 33%;
+    border: 1px black solid;
 }
 footer {
     text-align: center;
